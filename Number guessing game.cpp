@@ -27,9 +27,7 @@ int main(){
 
     
 	srand(time(0));
-	
 	int randomnumber= rand()%(100-1 + 1) + 1;
-    
 	cout<<"Random number = "<<randomnumber<<endl;
 	sleep(1);
 		if(randomnumber==a){
@@ -41,10 +39,6 @@ int main(){
 	  	    sleep(1);
 	    }
 	    check(a);
-	    
-
-  
-
 }
 
 
